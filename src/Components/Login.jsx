@@ -24,7 +24,7 @@ const Login = () => {
 
         // Later: send to backend API
         const { email, password } = form;
-        fetch("/api/login", {
+        fetch("https://api-signup-1.vercel.app/api/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

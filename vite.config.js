@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://api-signup-1.vercel.app/3000'
+      '/api': 'https://api-signup-1.vercel.app/'
     }
   }
 })
